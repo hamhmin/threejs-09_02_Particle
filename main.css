@@ -9,25 +9,35 @@ body {
 }
 .btn-wrap{
 	display: flex;
+	flex-direction: column;
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50% , -50%);
-	gap:40px;
+	gap:20px;
 }
-.btn-box{
+.box-wrap{
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	width: 50%;
-	margin: 0 auto;
+}
+.btn-box{
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
 }
 .btn-box2{
 	display: flex;
 	gap: 20px;
 }
-#btn{
-	padding: 10px 20px;
+.btn-box3{
+	width: 100%;
+	display: flex;
+	gap: 20px;
+}
+#btn,#btn2,#btn3,#btn4,#btn5,#btn6{
+	width: 50%;
+	height: 40px;
 	background: rgba(0,0,0,0.5);
 	border:0;
 	color: #fff;
@@ -35,49 +45,7 @@ body {
 	transition-duration: 1s;
 	border:1px solid #fff;
 }
-#btn:hover{
-	color: seagreen;
-	background: rgba(255,255,255,0.9);
-	
-}
-#btn2{
-	padding: 10px 20px;
-	background: rgba(0,0,0,0.5);
-	border:0;
-	color: #fff;
-	cursor:pointer;
-	transition-duration: 1s;
-	border:1px solid #fff;
-}
-#btn2:hover{
-	color: seagreen;
-	background: rgba(255,255,255,0.9);
-	
-}
-#btn3{
-	padding: 10px 20px;
-	background: rgba(0,0,0,0.5);
-	border:0;
-	color: #fff;
-	cursor:pointer;
-	transition-duration: 1s;
-	border:1px solid #fff;
-}
-#btn3:hover{
-	color: seagreen;
-	background: rgba(255,255,255,0.9);
-	
-}
-#btn4{
-	padding: 10px 20px;
-	background: rgba(0,0,0,0.5);
-	border:0;
-	color: #fff;
-	cursor:pointer;
-	transition-duration: 1s;
-	border:1px solid #fff;
-}
-#btn4:hover{
+#btn:hover,#btn2:hover,#btn3:hover,#btn4:hover,#btn5:hover,#btn6:hover{
 	color: seagreen;
 	background: rgba(255,255,255,0.9);
 	
